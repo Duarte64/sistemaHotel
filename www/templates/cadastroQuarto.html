@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Acomodação</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="menuNavegacao">
+            <ul>
+                <li>Reservar Acomodação</li>
+                <li>Realizar Cadastros</li>
+                <ul>
+                    <li>Acomodação</li>
+                    <li>Cliente</li>
+                    <li>Funcionário</li>
+                </ul>
+                <li>Consultar Disponibilidade</li>
+                <li>Informações Adicionais</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <form>
+
+            <label for="nomeQuarto">Nome do Quarto:</label>
+            <input type="text" name="nomeQuarto" id="nomeQuarto"><br>
+
+            <label for="tiposQuarto">Modelo:</label>
+            <select id="tiposQuarto">
+                <option value="suite">Suíte</option>
+                <option value="suite VIP">Suíte VIP</option>
+                <option value="familia">Família</option>
+                <option value="familia Premium">Família Premium</option>
+            </select><br>
+
+            <label for="custoDia">Custo da Diária:</label>
+            <input type="number" name="custoDia" id="custoDia"><br>
+    
+            <label for="descricaoQuarto">Breve Descrição:</label>
+            <textarea name="descricaoQuarto" id="descricaoQuarto" cols="30" rows="3"></textarea><br>
+    
+            <label for="imagemQuarto">Selecione imagens do quarto:</label>
+            <input type="file" name="imagensQuarto[]" id="imagemQuarto" accept="image/png, image/jpeg" multiple><br>
+    
+            <input type="submit" name="Enviar" id="Enviar">
+    
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
