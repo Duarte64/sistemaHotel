@@ -51,7 +51,7 @@ hr {
 .setorLogo {
     width: 35%;
     background-color: #50A1D0;
-    background: linear-gradient(to bottom right, #50A1D0, #53ADD2, #5CB3D2,#56B8C1, #5FB4AF, #55a39e);
+    background: linear-gradient(to bottom right, var(--collor-primary-000), var(--collor-primary-200), var(--collor-primary-300),var(--collor-primary-350), var(--collor-primary-500), var(--collor-primary-600));
     background-size: 300%;
     animation: gradient 2s infinite;
 }
