@@ -2,6 +2,7 @@ package br.com.hotel.modelo;
 
 import java.util.Calendar;
 import java.util.Date;
+import br.com.hotel.modelo.Cliente;
 
 public abstract class Acomodacao {
 	
@@ -44,5 +45,8 @@ public abstract class Acomodacao {
 			return false;
 		}
 	}
+	
+	
+		
 	
 }
