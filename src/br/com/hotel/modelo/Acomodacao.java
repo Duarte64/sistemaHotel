@@ -1,52 +1,42 @@
 package br.com.hotel.modelo;
 
-import java.util.Calendar;
-import java.util.Date;
-import br.com.hotel.modelo.Cliente;
-
 public abstract class Acomodacao {
 	
 	private String nomeAcomodacao;
 	private int valorDiaria;
-	private Cliente cliente;
-	private Date dataEntrada;
-	private Date dataSaida;
+	protected int quantidadePessoasPermitida;
 	
-	public Acomodacao(String nomeAcomodacao, int valorDiaria) {
+	public Acomodacao(String nomeAcomodacao, int valorDiaria, int quantidadePessoasPermitida) {
 		this.nomeAcomodacao = nomeAcomodacao;
 		this.valorDiaria = valorDiaria;
-		this.cliente = null;
-		this.dataEntrada = null;
-		this.dataSaida = null;
+		this.quantidadePessoasPermitida = quantidadePessoasPermitida;
 	}
 	
-	private void setCliente(Cliente cliente) {
-		this.cliente = cliente;
+	public String getNome() {
+		return this.nomeAcomodacao;
 	}
 	
-	private void setDataEntrada(Date dataEntrada) {
-		this.dataEntrada = dataEntrada;
+	public int getValorDiaria() {
+		return this.valorDiaria;
 	}
 	
-	private void setDataSaida(Date dataSaida) {
-		this.dataSaida = dataSaida;
+	public void setPromocaoDiaria(int valorDiaria) {
+		this.valorDiaria = valorDiaria;
 	}
 	
-	public double getValorReserva() {
-		//IMPLEMENTAR MÉTODO
-		return 2.0;
+	/**
+	public boolean registrarReserva(Cliente cliente, GregorianCalendar dataEntrada, GregorianCalendar dataSaida) {
+		//Implementação validação se a data está vazia.
+		this.setCliente(cliente);
+		this.setDataEntrada(dataEntrada);
+		this.setDataSaida(dataSaida);
+		return true;
 	}
+	**/
 	
-	public boolean realizarReserva(Cliente cliente, Calendar dataEntrada, Calendar dataSaida) {
-		//IMPLEMENTAR MÉTODO
-		if (true) {
-			return true;
-		} else {
-			return false;
-		}
+	@Override
+	public String toString() {
+		return "" + this.getNome() + "\nValor Diária: " + this.getValorDiaria();
 	}
-	
-	
 		
-	
 }
