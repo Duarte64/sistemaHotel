@@ -2,14 +2,14 @@ package br.com.hotel.modelo;
 
 public class AcomodacaoPadrao extends Acomodacao implements ServicosAdicionais {
 	
-
-	public AcomodacaoPadrao(String nomeAcomodacao, int valorDiaria) {
-		super(nomeAcomodacao, valorDiaria);
+	private boolean frigobar = true;
+	private boolean canaisAdicionais = true;
+	private boolean banheira = false;
+	
+	public AcomodacaoPadrao(String nomeAcomodacao, int valorDiaria, int quantidadePessoasPermitidas) {
+		super(nomeAcomodacao, valorDiaria, quantidadePessoasPermitidas);
 		// TODO Auto-generated constructor stub
 	}
-	
-	private boolean banheira = false;
-	private boolean canaisAdicionais = true;
 	
 	@Override
 	public String enviaRefeicao() {
