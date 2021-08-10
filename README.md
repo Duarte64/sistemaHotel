@@ -6,13 +6,14 @@
 <!--ts-->
    * [Features](#Features)
    * [Pré Requisitos](#Pré-requisitos)
-   * [Como Instalar](#Rodando-a-Aplicacao)
-      * [Deploy Aplicação](#local-files)
-      * [Executando em Servidor Local](#multiple-files)
-      * [Possíveis Erros](#combo)
+   * [Como Instalar](#Como-Instalar)
+      * [Deploy Aplicação]
+      * [Executando em Servidor Local]
+      * [Possíveis Erros]
    * [Como Utilizar](#Como-Utilizar)
-   * [Testes](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Construção](#Como-Utilizar)
+   * [Testes](#Testes)
+   * [Tecnologias](#Tecnologias)
    * [Autor](#Autor)
 <!--te-->
 
@@ -45,7 +46,7 @@ $ git clone <https://github.com/Duarte64/sistemaHotel.git>
 
 ## Como Utilizar
 
-Para utilizar a ferramenta, realize os seguintes passos:
+### Para utilizar a ferramenta, realize os seguintes passos:
 
 ### Realize o Cadastro de Clientes 
 É possível realizar quantos cadastros quiser. Após feito, você será redirecionado para a página de listagem de clientes, onde é possível consultar todos os cadastros, com a possibilidade de alterar as informações ou deletar os registros que julgar necessário.
@@ -61,9 +62,21 @@ Ao consultar as reservas, você pode solicitar os diferentes serviços disponív
 - As reservas de Acomodação Simples não possuem nenhum serviço adicional.
 - As reservas de Acomodação Simples e Luxo tem os adicionais de Serviço de Quarto e Solicitar Refeição.
 - A Acomodação de Luxo é a única que possui Serviço de Praia.
-Ao solicitar um serviço, será exibida uma mensagem na tela. Se atente ao texto escrito, é possível reparar que para diferentes tipo de acomodação, o texto muda.
+
+Ao solicitar um serviço, será exibida uma mensagem na tela. Se atente ao texto escrito, é possível reparar que para diferentes tipo de acomodação o texto irá muda.
+
+## Construção
+
+### A aplicação foi construida seguindo as referências da seguinte UML.
+
+<h1 align="center">
+  <img alt="UMLGerenciadorHotel" title="#UML do Gerenciador de Hotel" src="uml.png" />
+</h1>
 
 ## 👷⚙ Testes
+
+#### Todos os testes foram feitos utilizando JUnit4, todos os modelos foram testados. Incluindo suas instâncias e tratamento de erros.
+#### Você pode conferir todos os testes que foram construídos no package Testes
 
 ## 🛠 Tecnologias
 
