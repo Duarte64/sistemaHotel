@@ -64,7 +64,7 @@ Abra um terminal na pasta do TomCat e execute os seguintes comandos:
 #### Solução para Windows
 - Abra as propriedades do Este Computador
 - Clique em Configurações Avançadas do Sistema e em seguida Variáveis de Ambiente
-- Procure a variável JAVA_HOME e edite para o seguinte caminho: C:/Aquivos-de-Programas/Java -> Aqui selecione o seu JRE, que deve ser igual ou superior a versão 10.0.0
+- Procure a variável JAVA_HOME (Caso ela não exista, crie uma nova com exatamente este nome) e edite para o seguinte caminho: C:/Aquivos-de-Programas/Java -> Aqui selecione o seu JDK, que deve ser igual ou superior a versão 10.0.0
 
 ## ⌨ Como Utilizar
 
