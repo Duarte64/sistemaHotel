@@ -17,7 +17,7 @@
 <!--te-->
 
 <h4 align="center"> 
-	🚧  Sistema Hotel 🏨 Em construção...  🚧
+	🚧  Sistema de Hotelaria 🏨 Em construção...  🚧
 </h4>
 
 ### Features
@@ -76,7 +76,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 💻 Autor
 
 Gabriel Duarte 🧑‍💻
-Feito com ❤️ por Gabriel Duarte 👋🏽 Entre em contato!
+Feito com ❤️ por Gabriel Duarte 👋🏽 Entre em contato! <br>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-duarte-da-paz-figueiredo-3aaa35197/)](https://www.linkedin.com/in/gabriel-duarte-da-paz-figueiredo-3aaa35197/) 
 [![Gmail Badge](https://img.shields.io/badge/-gabriel.duartepaz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabriel.duartepaz@gmail.com)](mailto:gabriel.duartepaz@gmail.com)
