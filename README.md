@@ -35,7 +35,7 @@
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Java](https://nodejs.org/en/), [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html), [TomCat v9.0](https://tomcat.apache.org/download-90.cgi).
 
-Além disto é bom ter um editor de código como o [Eclipe EE](https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers).
+Além disto é bom ter um editor de código como o [Eclipse EE](https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers).
 
 ## 🖥 Como Instalar
 
