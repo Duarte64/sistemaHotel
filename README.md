@@ -6,10 +6,11 @@
 <!--ts-->
    * [Features](#Features)
    * [Pré Requisitos](#Pré-requisitos)
-   * [Como usar](#Rodando-a-Aplicacao)
+   * [Como Instalar](#Rodando-a-Aplicacao)
       * [Deploy Aplicação](#local-files)
       * [Executando em Servidor Local](#multiple-files)
       * [Possíveis Erros](#combo)
+   * [Como Utilizar](#Como-Utilizar)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
@@ -34,12 +35,32 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 Além disto é bom ter um editor de código como o [Eclipe EE](https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers).
 
-### Como Usar
+### Como Instalar
 
 #### Clone este repositório
 $ git clone <https://github.com/Duarte64/sistemaHotel.git>
 
 #### O servidor inciará na porta:8080 - acesse <http://localhost:8080> 
+
+### Como Utilizar
+
+Para utilizar a ferramenta, realize os seguintes passos:
+
+#### Realize o Cadastro de Clientes 
+É possível realizar quantos cadastros quiser. Após feito, você será redirecionado para a página de listagem de clientes, onde é possível consultar todos os cadastros, com a possibilidade de alterar as informações ou deletar os registros que julgar necessário.
+
+#### Realize o Cadastro de Acomodações
+Definindo o seu respectivo tipo (Simples, Padrão e Luxo); É possível realizar quantos cadastros quiser. Após feito, você será redirecionado para a página de listagem de acomodações, onde é possível consultar todos os cadastros, com a possibilidade deletar os registros que julgar necessário.
+
+#### Registre Reservas. 
+Será necessário unir um Cliente (com seu número de CPF) a uma Acomodação (pelo seu ID). Você deve definir a data de check-in e de check-out. Se o cadastro for bem sucessido e não for encontrado nenhum erro, você será redirecionado para a página de listagem de Reservas, onde irá mostrar as informações da reserva, a quantidade de dias da estadia e o valor da mesma.
+
+#### Observações
+Ao consultar as reservas, você pode solicitar os diferentes serviços disponíveis para cada tipo de acomodação.
+- As reservas de Acomodação Simples não possuem nenhum serviço adicional.
+- As reservas de Acomodação Simples e Luxo tem os adicionais de Serviço de Quarto e Solicitar Refeição.
+- A Acomodação de Luxo é a única que possui Serviço de Praia.
+Ao solicitar um serviço, será exibida uma mensagem na tela. Se atente ao texto escrito, é possível reparar que para diferentes tipo de acomodação, o texto muda.
 
 ### 👷⚙ Testes
 
