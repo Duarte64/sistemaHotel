@@ -18,7 +18,7 @@
 <!--te-->
 
 <h4 align="center"> 
-	🚧  Sistema de Hotelaria 🏨 Em construção...  🚧
+	🚧  Sistema de Hotelaria 🏨  🚧
 </h4>
 
 ### ✅ Features
@@ -118,3 +118,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![Gmail Badge](https://img.shields.io/badge/-gabriel.duartepaz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabriel.duartepaz@gmail.com)](mailto:gabriel.duartepaz@gmail.com)
 <br>
 [![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-moreira-437963190/)](https://www.linkedin.com/in/felipe-moreira-437963190/)
+[![Gmail Badge](https://img.shields.io/badge/-felipe.moreira.ts@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipe.moreira.ts@gmail.com)](mailto:felipe.moreira.ts@gmail.com)
