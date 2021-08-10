@@ -11,7 +11,7 @@
       * [Executando em Servidor Local]
       * [Possíveis Erros]
    * [Como Utilizar](#-Como-Utilizar)
-   * [Construção](#-Como-Utilizar)
+   * [Construção](#-Construção)
    * [Testes](#-Testes)
    * [Tecnologias](#-Tecnologias)
    * [Autor](#-Autor)
