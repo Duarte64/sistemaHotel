@@ -4,24 +4,24 @@
 <img src="https://img.shields.io/badge/license-MIT-green"> <img src="https://img.shields.io/github/stars/Duarte64/sistemaHotel"> <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FDuarte64%2FsistemaHotel">
 
 <!--ts-->
-   * [Features](#Features)
-   * [Pré Requisitos](#Pré-requisitos)
-   * [Como Instalar](#Como-Instalar)
+   * [Features](#-Features)
+   * [Pré Requisitos](#-Pré-requisitos)
+   * [Como Instalar](#-Como-Instalar)
       * [Deploy Aplicação]
       * [Executando em Servidor Local]
       * [Possíveis Erros]
-   * [Como Utilizar](#Como-Utilizar)
-   * [Construção](#Como-Utilizar)
-   * [Testes](#Testes)
-   * [Tecnologias](#Tecnologias)
-   * [Autor](#💻-Autor)
+   * [Como Utilizar](#-Como-Utilizar)
+   * [Construção](#-Como-Utilizar)
+   * [Testes](#-Testes)
+   * [Tecnologias](#-Tecnologias)
+   * [Autor](#-Autor)
 <!--te-->
 
 <h4 align="center"> 
 	🚧  Sistema de Hotelaria 🏨 Em construção...  🚧
 </h4>
 
-### Features
+### ✅ Features
 
 - [x] Cadastro de Acomodações
 - [x] Cadastro de Clientes
@@ -30,21 +30,21 @@
 - [-] Tratamento de Erros (Em Andamento)
 - [-] Responsividade (Em Andamento)
 
-## Pré-requisitos
+## ❗ Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Java](https://nodejs.org/en/), [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html), [TomCat V9.0](https://tomcat.apache.org/download-90.cgi).
 
 Além disto é bom ter um editor de código como o [Eclipe EE](https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers).
 
-## Como Instalar
+## 🖥 Como Instalar
 
 ### Clone este repositório
 $ git clone <https://github.com/Duarte64/sistemaHotel.git>
 
 ### O servidor inciará na porta:8080 - acesse <http://localhost:8080> 
 
-## Como Utilizar
+## ⌨ Como Utilizar
 
 ### Para utilizar a ferramenta, realize os seguintes passos:
 
@@ -65,7 +65,7 @@ Ao consultar as reservas, você pode solicitar os diferentes serviços disponív
 
 Ao solicitar um serviço, será exibida uma mensagem na tela. Se atente ao texto escrito, é possível reparar que para diferentes tipo de acomodação o texto irá muda.
 
-## Construção
+## 🚀 Construção
 
 ### A aplicação foi construida seguindo as referências da seguinte UML.
 
