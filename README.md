@@ -70,7 +70,7 @@ Ao solicitar um serviço, será exibida uma mensagem na tela. Se atente ao texto
 ### A aplicação foi construida seguindo as referências da seguinte UML.
 
 <h1 align="center">
-  <img alt="UMLGerenciadorHotel" title="#UML do Gerenciador de Hotel" src="uml.png" />
+  <img alt="UMLGerenciadorHotel" title="#UML do Gerenciador de Hotel" src="UMLHotel.png" />
 </h1>
 
 ## 👷⚙ Testes
