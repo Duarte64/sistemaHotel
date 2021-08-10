@@ -7,9 +7,9 @@
    * [Features](#-Features)
    * [Pré Requisitos](#-Pré-requisitos)
    * [Como Instalar](#-Como-Instalar)
-      * [Deploy Aplicação](#Baixe-TomCat-v9.0)
+      * [Deploy Aplicação](#-Como-Instalar)
       * [Executando em Servidor Local](#Inicializando-o-TomCat)
-      * [Possíveis Erros]
+      * [Possíveis Erros](#Você-pode-se-deparar-com-o-erro-UnsuportClassVersionError)
    * [Como Utilizar](#-Como-Utilizar)
    * [Construção](#-Construção)
    * [Testes](#-Testes)
