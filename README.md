@@ -14,7 +14,7 @@
    * [Construção](#Como-Utilizar)
    * [Testes](#Testes)
    * [Tecnologias](#Tecnologias)
-   * [Autor](#Autor)
+   * [Autor](#💻-Autor)
 <!--te-->
 
 <h4 align="center"> 
