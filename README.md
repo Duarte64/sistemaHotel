@@ -49,5 +49,5 @@ $ git clone <https://github.com/Duarte64/sistemaHotel.git>
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Java](https://www.java.com/pt-BR/)
-- [HTML5]
-- [CSS3]
+- HTML5
+- CSS3
