@@ -7,8 +7,8 @@
    * [Features](#-Features)
    * [Pré Requisitos](#-Pré-requisitos)
    * [Como Instalar](#-Como-Instalar)
-      * [Deploy Aplicação]
-      * [Executando em Servidor Local]
+      * [Deploy Aplicação](#Baixe-TomCat-v9.0)
+      * [Executando em Servidor Local](#Inicializando-o-TomCat)
       * [Possíveis Erros]
    * [Como Utilizar](#-Como-Utilizar)
    * [Construção](#-Construção)
@@ -33,16 +33,38 @@
 ## ❗ Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Java](https://nodejs.org/en/), [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html), [TomCat V9.0](https://tomcat.apache.org/download-90.cgi).
+[Git](https://git-scm.com), [Java](https://nodejs.org/en/), [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html), [TomCat v9.0](https://tomcat.apache.org/download-90.cgi).
 
 Além disto é bom ter um editor de código como o [Eclipe EE](https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers).
 
 ## 🖥 Como Instalar
 
+### Baixe TomCat v9.0
+Primeiro baixe o [TomCat v9.0](https://tomcat.apache.org/download-90.cgi). Em seguida extraia o mesmo.
+
 ### Clone este repositório
 $ git clone <https://github.com/Duarte64/sistemaHotel.git>
 
-### O servidor inciará na porta:8080 - acesse <http://localhost:8080> 
+### Arquivo de Deploy
+Pegue o arquivo gerenciadorHotel.war e jogue na pasta webapps do TomCat que você acabou de descompactar.
+
+### Inicializando o TomCat
+Abra um terminal na pasta do TomCat e execute os seguintes comandos:
+> cd bin
+
+> startup.bat (para windows)
+
+> startup.sh (para linux)
+
+### O servidor inciará na porta:8080 
+- Acesse <http://localhost:8080> para verificar se o TomCat inicializou corretamente.
+- Acesse <http://localhost:8080/cadastroAcomodacao.html> para entrar na aplicação.
+
+### Você pode se deparar com o erro UnsuportClassVersionError
+#### Solução para Windows
+- Abra as propriedades do Este Computador
+- Clique em Configurações Avançadas do Sistema e em seguida Variáveis de Ambiente
+- Procure a variável JAVA_HOME e edite para o seguinte caminho: C:/Aquivos-de-Programas/Java -> Aqui selecione o seu JRE, que deve ser igual ou superior a versão 10.0.0
 
 ## ⌨ Como Utilizar
 
