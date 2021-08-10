@@ -1,7 +1,7 @@
 <h1 align="center">Gerenciador de Hotel</h1>
-<p align="center">Este projeto consiste em um sistema de gerenciamento de um hotel para aplicar os conhecimentos da matéria de Programação Orientada a Objetos, ministrada pelo professor Paulo Roberto Miranda Meirelles na Universidade Federal do ABC.</p>
+<p>Este projeto consiste em um sistema de gerenciamento de um hotel para aplicar os conhecimentos da matéria de Programação Orientada a Objetos, ministrada pelo professor Paulo Roberto Miranda Meirelles na Universidade Federal do ABC.</p>
 
-<img src="https://img.shields.io/badge/license-MIT-green"><img src="https://img.shields.io/github/stars/Duarte64/sistemaHotel"><img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FDuarte64%2FsistemaHotel">
+<img src="https://img.shields.io/badge/license-MIT-green"> <img src="https://img.shields.io/github/stars/Duarte64/sistemaHotel"> <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FDuarte64%2FsistemaHotel">
 
 <!--ts-->
    * [Tabela de Conteudo](#Features)
