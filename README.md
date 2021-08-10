@@ -43,7 +43,7 @@ Além disto é bom ter um editor de código como o [Eclipe EE](https://www.eclip
 Primeiro baixe o [TomCat v9.0](https://tomcat.apache.org/download-90.cgi). Em seguida extraia o mesmo.
 
 ### Clone este repositório
-$ git clone <https://github.com/Duarte64/sistemaHotel.git>
+> $ git clone <https://github.com/Duarte64/sistemaHotel.git>
 
 ### Arquivo de Deploy
 Pegue o arquivo gerenciadorHotel.war e jogue na pasta webapps do TomCat que você acabou de descompactar.
