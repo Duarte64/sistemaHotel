@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/license-MIT-green"> <img src="https://img.shields.io/github/stars/Duarte64/sistemaHotel"> <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FDuarte64%2FsistemaHotel">
 
 <!--ts-->
-   * [Tabela de Conteudo](#Features)
+   * [Features](#Features)
    * [Pré Requisitos](#Pré-requisitos)
    * [Como usar](#Rodando-a-Aplicacao)
       * [Deploy Aplicação](#local-files)
@@ -34,9 +34,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 Além disto é bom ter um editor de código como o [Eclipe EE].(https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers)
 
-### Rodando a Aplicação
+### Como Usar
 
-bash
 # Clone este repositório
 $ git clone <https://github.com/Duarte64/sistemaHotel.git>
 
