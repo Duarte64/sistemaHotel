@@ -18,7 +18,7 @@
 <!--te-->
 
 <h4 align="center"> 
-	🚧  Sistema de Hotelaria 🏨  🚧
+	  Sistema de Hotelaria 🏨 
 </h4>
 
 ### ✅ Features
