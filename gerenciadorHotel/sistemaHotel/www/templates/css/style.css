@@ -1,0 +1,93 @@
+:root {
+    --collor-primary-000: #50A1D0;
+    --collor-primary-200: #53ADD2;
+    --collor-primary-300: #5CB3D2;
+    --collor-primary-350: #56B8C1;
+    --collor-primary-500: #5FB4AF;
+    --collor-primary-600: #55a39e;
+
+    --font-base: 'Nunito', sans-serif;
+}
+
+* {
+    font-family: var(--font-base);
+    box-sizing: border-box;
+}
+
+form {
+    height: 100%;
+    padding: 0em 1.5em;
+}
+
+hr {
+    width: 100%;
+    margin: 1.5em 0 1.5em 0;
+}
+
+.tituloForm {
+    font-size: 2.3em;
+    color: var(--collor-primary-000);
+    margin: 0.5em 0 0.5em 1em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.mainFormContent {
+    width: 65%;
+    height: 30em;
+    display: flex;
+    margin: auto;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.349);
+}
+
+.cadastroForm {
+    display: flex;
+    flex-flow: column;
+}
+
+.setorFormulario {
+    width: 65%;
+}
+
+.setorLogo {
+    width: 35%;
+    background-color: #50A1D0;
+    background: linear-gradient(to bottom right, var(--collor-primary-000), var(--collor-primary-200), var(--collor-primary-300),var(--collor-primary-350), var(--collor-primary-500), var(--collor-primary-600));
+    background-size: 300%;
+    animation: gradient 2s infinite;
+}
+
+.campo {
+    margin-top: 1em;
+}
+
+.button {
+    width: 15em;
+    height: 3em;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    background: linear-gradient(to right, var(--collor-primary-000), var(--collor-primary-200), var(--collor-primary-300), var(--collor-primary-350), var(--collor-primary-500));
+    background-size: 300%
+}
+
+.logoForm {
+    display: inline-block;
+    margin: 4em 0 0 1em;
+}
+
+.button:hover {
+    animation: gradient 2s infinite;
+}
+
+@keyframes gradient {
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
