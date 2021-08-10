@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Acomodação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleCadastroQuarto.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menuNavegacao">
+            <nav>
+                <ul>
+                    <li><a href="cadastroReserva.html">Reservar Acomodação</a></li>
+                    <li><a href="">Realizar Cadastros</a>
+                        <ul class="">
+                            <li class=""><a href="cadastroAcomodacao.html">Acomodação</a></li>
+                            <li class=""><a href="cadastroCliente.html">Cliente</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Consultar</a>
+                        <ul class="">
+                            <li class=""><a href="ListaCliente">Clientes</a></li>
+                            <li class=""><a href="listaAcomodacao">Acomodações</a></li>
+                            <li class=""><a href="listaReserva">Reservas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="adicionaisInfo.html">Informações Adicionais</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="mainFormContent">
+            <section class="setorFormulario">
+                <h1 class="tituloForm">Cadastro Acomodação</h1>
+                <form class="cadastroForm" method="POST" action="/gerenciadorHotel/requestCadastroAcomodacao">
+                    <div class="sectionForm">
+                        <label for="nomeQuarto">Nome do Quarto:</label>
+                        <input type="text" name="nomeQuarto" id="nomeQuarto" class="campo"><br><br>
+                        <label for="tiposQuarto">Modelo:</label>
+                        <select id="tiposQuarto" name ="tiposQuarto" class="campo">
+                            <option value="1">Acomodação Simples</option>
+                            <option value="2">Acomodação Padrão</option>
+                            <option value="3">Acomodação Luxo</option>
+                        </select>
+                        <label for="custoDia">Custo da Diária:</label>
+                        <input type="number" name="custoDia" id="custoDia" class="campo"><br><br>
+                        <label for="descricaoQuarto">Breve Descrição:</label><br>
+                        <textarea name="descricaoQuarto" id="descricaoQuarto" cols="91" rows="5" class="campo"></textarea><br>
+                        <label for="imagemQuarto">Selecione imagens do quarto:</label>
+                        <input type="file" name="imagemQuarto" id="imagemQuarto" accept="image/png, image/jpeg" class="campo"><br>
+                        <input type="submit" class="campo button" name="enviar" id="enviar">
+                    </div>
+                </form>
+            </section>
+            <section class="setorLogo">
+                <picture class="logoForm">
+                    <source>
+                    <img src="img/logo_400px.png" alt="" class="imageBanner">
+                </picture>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="contentFooter">
+            <p class="textLeft">Projeto para matéria de POO da UFABC.</p>
+            <p class="textRight">Gabriel Duarte e Felipe Moreira</p>
+        </div>
+    </footer>
+
+</body>
+</html>
