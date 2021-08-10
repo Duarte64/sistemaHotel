@@ -108,10 +108,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - HTML5
 - CSS3
 
-## 💻 Autor
+## 💻 Autores
 
 ### Gabriel Duarte 🧑‍💻
-### Feito com ❤️ por Gabriel Duarte 👋🏽 Entre em contato!
+### Felipe Moreira 
+### Feito com ❤️ para a matéria de POO 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-duarte-da-paz-figueiredo-3aaa35197/)](https://www.linkedin.com/in/gabriel-duarte-da-paz-figueiredo-3aaa35197/) 
 [![Gmail Badge](https://img.shields.io/badge/-gabriel.duartepaz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabriel.duartepaz@gmail.com)](mailto:gabriel.duartepaz@gmail.com)
