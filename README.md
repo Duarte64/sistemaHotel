@@ -14,7 +14,7 @@
    * [Construção](#-Construção)
    * [Testes](#-Testes)
    * [Tecnologias](#-Tecnologias)
-   * [Autor](#-Autor)
+   * [Autores](#-Autor)
 <!--te-->
 
 <h4 align="center"> 
